@@ -1,0 +1,6 @@
+<!--life.wxml-->
+<import src="../templates/tarbar.wxml"/>
+<view>
+  生活
+  <template is="tabBar" data="{{tabBar}}"/>
+</view>

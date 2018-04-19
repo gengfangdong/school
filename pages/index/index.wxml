@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<import src="../templates/tarbar.wxml"/>
+
+<view class='cla_index'>
+  <view class='cla_index_title'>{{welcom}}{{schoolname}}{{students}}</view>
+  <view class='cla_index_list'></view>
+  <template is="tabBar" data="{{tabBar}}"/>
+</view>

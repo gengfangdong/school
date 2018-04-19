@@ -1,0 +1,6 @@
+<!--feedback.wxml-->
+<import src="../templates/tarbar.wxml"/>
+<view>
+  反馈
+  <template is="tabBar" data="{{tabBar}}"/>
+</view>

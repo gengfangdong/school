@@ -1,0 +1,6 @@
+<!--study.wxml-->
+<import src="../templates/tarbar.wxml"/>
+<view>
+  学习
+  <template is="tabBar" data="{{tabBar}}"/>
+</view>

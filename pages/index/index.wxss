@@ -1,0 +1,13 @@
+/**index.wxss**/
+.cla_index{
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #778899;
+}
+.cla_index_title{
+  text-align: center;
+  font-size: 20px;
+}
+.cla_index_list{
+  height: 300px;
+}

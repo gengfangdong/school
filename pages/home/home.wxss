@@ -1,0 +1,45 @@
+/**home.wxss**/
+.cla_home{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #778899;
+  font-size: 20px;
+}
+.cla_home_title{
+  text-align: center;
+  
+}
+.cla_home_schoollist{
+  margin-top: 20px;
+  font-size: 12px;
+  height: 300px;
+}
+.cla_home_feedback{
+  color: red;
+  font-size: 12px;
+  text-align: center;
+  bottom: 10px;
+}
+.cla_home_feedback_hover{
+  color: red;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

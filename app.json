@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/index/index",
+    "pages/feedback/feedback",
+    "pages/detail/detail",
+    "pages/list/list",
+    "pages/logs/logs",
+    "pages/publish/publish",
+    "pages/study/study",
+    "pages/play/play",
+    "pages/life/life",
+    "pages/admin/admin"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "学校信息管理",
+    "navigationBarTextStyle":"black"
+  }
+}

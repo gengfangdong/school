@@ -1,0 +1,19 @@
+<!--home.wxml-->
+<view class='cla_home'>
+
+<!--学校列表模板  -->
+<template name='template_schoollist'>
+  <navigator url='../index/index?id={{id}}'>
+    {{id}}:{{title}}
+  </navigator>
+</template>
+  <view class='cla_home_title'>{{selectschools}}</view>
+  <view class='cla_home_schoollist'>
+      <view wx:for="{{schoollist}}">
+        <template is='template_schoollist' data="{{...item}}"/>
+      </view>
+      <loading hidden="{{loading}}">学校列表加载中......</loading>
+  </view>
+  <view class='cla_home_feedback'><navigator url="../feedback/feedback" hover-class='cla_home_feedback_hover'>{{feedback}}</navigator></view>
+  <view><button bindtap='adminTap'>{{admin_login}}</button></view>
+</view>

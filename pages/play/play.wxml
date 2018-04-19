@@ -1,0 +1,6 @@
+<!--play.wxml-->
+<import src="../templates/tarbar.wxml"/>
+<view>
+  娱乐
+  <template is="tabBar" data="{{tabBar}}"/>
+</view>

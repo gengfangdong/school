@@ -1,0 +1,6 @@
+<!--publish.wxml-->
+<import src="../templates/tarbar.wxml"/>
+<view>
+  发布
+  <template is="tabBar" data="{{tabBar}}"/>
+</view>
